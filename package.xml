@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<package>
+    <name>Citybeach_Omnivore</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.omnivore.com.au/index.php/omnivore-application-terms-of-use/">Omnivore Application Terms of Use</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integrate your Magento store with eBay/Westfield/Google shopping in minutes; auto-synch orders and listings</summary>
+    <description>Install the Omnivore Magento extension for a quick and easy way to connect to eBay.com.au, eBay.ca, Westfield and Google Shopping marketplaces.&#xD;
+&#xD;
+We specialise in Australian marketplaces and have over 600 retailers of all shapes and sizes using Omnivore, including many of the top 50.&#xD;
+&#xD;
+The Omnivore Magento extension will not interfere with any customisations you may already have. &#xD;
+&#xD;
+&lt;b&gt;Installation and Set Up&lt;/b&gt;&#xD;
+&#xD;
+It only takes a few minutes to install the extension, then depending on the marketplace you choose you could be listing your products within the hour.&#xD;
+&#xD;
+&lt;b&gt;Support&lt;/b&gt;&#xD;
+&#xD;
+We provide phone and email support to ensure you have the help you need, when you need it.&#xD;
+&#xD;
+&lt;b&gt;Here&#x2019;s why Omnivore makes selling on multiple marketplaces easy&lt;/b&gt;&#xD;
+&#xD;
+1. Listings&#xD;
+&#xD;
+Omnivore creates and updates product listings automatically. Choose which products you want to list on each marketplace.&#xD;
+&#xD;
+2. Marketplace Category Mapping&#xD;
+&#xD;
+Categorise your products to the right categories on each marketplace easily with our Category Mapping feature so that your products end up on the right &#x2018;shelves&#x2019;. Use recommended categories or choose from the full list.&#xD;
+&#xD;
+3. Orders flow back to Magento&#xD;
+&#xD;
+Omnivore checks for Orders every couple of minutes, when we receive an order we send it straight through to your Magento store for fulfilment.&#xD;
+&#xD;
+4. Customise Pricing and Promotions&#xD;
+&#xD;
+The Promotions Manager lets you target and enhance your products for each marketplace. Sell dusty stock by targeting customers in each marketplace with great deals without changing prices on your ecommerce store.&#xD;
+&#xD;
+5. Product Bundles&#xD;
+&#xD;
+Group the same or different products together and price them differently to create product bundles.&#xD;
+&#xD;
+6. Prevent Overselling with Stock Buffers&#xD;
+&#xD;
+You can set a stock buffer so that you never oversell and receive poor customer feedback.&#xD;
+&#xD;
+7. Buy online, Pick up Instore&#xD;
+&#xD;
+Customers love having the option to save on postage and pick up their purchase instore. NB: Only available for on request.&#xD;
+&#xD;
+For more information about Omnivore visit:&#xD;
+&#xD;
+www.omnivore.com.au</description>
+    <notes>First post-beta GA release</notes>
+    <authors><author><name>City Beach Software</name><user>omnivore</user><email>ilogan@citybeachsoftware.com</email></author></authors>
+    <date>2016-02-02</date>
+    <time>11:36:49</time>
+    <contents><target name="magecommunity"><dir name="Citybeach"><dir name="Omnivore"><dir name="Block"><dir name="Adminhtml"><file name="Payment.php" hash="ee4ffe77673c583cfca4c92624c962a2"/></dir></dir><dir name="Helper"><file name="Data.php" hash="8633af317628bbaa17bc0b98bbef9395"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Rego"><file name="Collection.php" hash="bbf62854180e85d24952b1b4b8ce9135"/></dir><file name="Rego.php" hash="4d7ab20314f5f39df0dc4557a2a1c781"/></dir><dir name="Order"><file name="Api.php" hash="10435b83f13df7b095117dad69a1456f"/></dir><file name="Order.php" hash="4b9b5100f4c855f8dabc730ee8ca0b37"/><file name="Payment.php" hash="21d74bcef388399e80aa68cfbce31c6c"/><dir name="Product"><file name="Api.php" hash="c6e2cdfb324144559f1d629a8134687e"/></dir><file name="Rego.php" hash="b08186f0b5341100bea9a97c20006bf3"/><dir name="Resource"><file name="Setup.php" hash="01a9f8f313a702ecbc3cb64dd4dd11ff"/></dir><dir name="Store"><file name="Api.php" hash="357f88f8914601b996eb62f1d99de84e"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="OmnivoreController.php" hash="22c370bc5013ecf564e78fbe5a4c3406"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="5041fcdd6bc108508db254312e0dd5d9"/><file name="api.xml" hash="1b432747b85973fe69ba249dbe6ed8d5"/><file name="config.xml" hash="62109abc8c1b58bfd3de31526bb9e80c"/><file name="system.xml" hash="85b1e13759fe11ebab04a07592aea491"/></dir><dir name="sql"><dir name="citybeach_omnivore_setup"><file name="install-1.0.0.php" hash="88ea3e8b17aa6f90e463462e55b5b5ad"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Citybeach_Omnivore.xml" hash="6383f5a2c140edb19dc47341f89f8c1b"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="omnivore.xml" hash="359b2ed74cb29212d55845f8b73e75c0"/></dir><dir name="template"><dir name="omnivore"><file name="omnivore.phtml" hash="d5bd4cd5a64bb9c98dec680a6c69be88"/><file name="payment.phtml" hash="f7855e06c687fd45e04cc729e9f96a7b"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.99</max></php></required></dependencies>
+</package>

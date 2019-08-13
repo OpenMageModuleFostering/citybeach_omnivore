@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Citybeach_Omnivore",
+    "type": "magento-module",
+    "license": "Omnivore-Application-Terms-of-Use",
+    "homepage": "",
+    "description": "Integrate your Magento store with eBay/Westfield/Google shopping in minutes; auto-synch orders and listings",
+    "authors": [
+    {
+        "name": "City Beach Software",
+        "email": "ilogan@citybeachsoftware.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
