@@ -499,6 +499,13 @@ class Citybeach_Omnivore_Model_Order
             $this->order = $service->getOrder();
 
             $this->quote->setIsActive(false)->save();
+
+            if (!empty($this->json->customOrderStatus))
+            {
+                $this->order->setState($this->json->customOrderStatus);
+                $this->order->save();
+            }
+
         }
         catch (Exception $e)
         {
