@@ -506,6 +506,11 @@ class Citybeach_Omnivore_Model_Order
                 $this->order->save();
             }
 
+            if (!empty($this->json->deliveryInstructions))
+            {
+                $this->order->addStatusHistoryComment('Delivery Instructions: ' . $this->json->deliveryInstructions);
+                $this->order->save();
+            }
         }
         catch (Exception $e)
         {
